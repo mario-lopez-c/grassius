@@ -1,0 +1,34 @@
+{
+    "name": "ubuntu/grasius",
+    "description": "Nes grassius page",
+    "type": "project",
+    "license": "Michigan State University",
+    "authors": [
+        {
+            "name": "Mario Lopez",
+            "email": "marioelopezc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/adminimal_theme": "^1.26",
+        "drupal/business": "^1.11"
+    },
+    "require": {
+        "composer/installers": "~1.0",
+        "drupal/drupal": "7.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "web/": [
+                "type:drupal-core"
+            ]
+        }
+    }
+}
