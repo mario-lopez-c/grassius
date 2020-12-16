@@ -1,6 +1,6 @@
-# Tripal Rapid Installer
+# New Grassius Page
 
-Before installing via the rapid installation process please ensure drush is installed, and the server is setup.    Rapid Installation works with Tripal v3.0 and later.   Please see the [Tripal User's Guide](http://tripal.info/tutorials/v3.x) for full setup instructions.
+Tripal Rapid Installer: Before installing via the rapid installation process please ensure drush is installed, and the server is setup.    Rapid Installation works with Tripal v3.0 and later.   Please see the [Tripal User's Guide](http://tripal.info/tutorials/v3.x) for full setup instructions.
 
 ## Database Setup
 
