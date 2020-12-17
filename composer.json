@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/adminimal_theme": "^1.26",
-        "drupal/business": "^1.11"
+        "drupal/business": "^1.0",
+        "drupal/business_responsive_theme": "^2.3"
     },
     "require": {
         "composer/installers": "~1.0",
