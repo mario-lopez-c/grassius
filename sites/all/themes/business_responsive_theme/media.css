@@ -83,7 +83,7 @@
     float:none;
     max-width:100%;
   }
-  #main-menu a {
+/*  #main-menu a {
     width:100%;
     padding: 10px 0;
     background:#444;
@@ -93,7 +93,7 @@
   }
   #main-menu a:hover, #main-menu li a.active{
     background: rgb(20, 27, 33);
-  }
+  }*/
   #main-menu li li a {
     text-align:center;
     font-size: 12px;

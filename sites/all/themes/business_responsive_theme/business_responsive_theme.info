@@ -1,4 +1,4 @@
-name = Business Responsive Theme
+esname = Business Responsive Theme
 description = Business Responsive Theme<br/>Developed by <a href="http://www.zymphonies.com">Zymphonies</a> & Designed by <a href="http://www.freebiezz.com">FreeBiezz</a>.<br/>Contact us for Drupal Design & Development <a href="mailto:info@zymphonies.com">info@zymphonies.com</a> 
 core = 7.x
 
@@ -31,7 +31,8 @@ features[] = comment_user_picture
 features[] = comment_user_verification
 features[] = favicon
 features[] = main_menu
-features[] = secondary_menu
+feaitures[] = secondary_menu
+
 settings[breadcrumbs]  = 1
 settings[social_links]  = 1
 settings[twitter_username] = "zymphonies"
