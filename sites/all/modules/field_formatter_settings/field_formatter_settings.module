@@ -31,7 +31,8 @@ function field_formatter_settings_get_instance_display_settings($entity_type, $f
 
   // Fetch the instance settings and default display settings.
   $info = field_info_instance($entity_type, $field_name, $bundle);
-  $defaults = $info['display']['default']['settings'];
+  //$defaults = $info['display']['default']['settings'];
+  $defaults = isset($info['display']['default']['settings']) ? $info['display']['default']['settings'] : [];
 
   if (isset($info['display'][$view_mode]['settings'])) {
     return $info['display'][$view_mode]['settings'] + $defaults;
